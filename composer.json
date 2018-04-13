@@ -1,0 +1,22 @@
+{
+    "name": "afrihost/tennis-scoring",
+    "description": "Tennis Scoring Code Kata",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Johnathan Dell",
+            "email": "open-source@afrihost.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "TennisScoring\\": "src"
+        }
+    }
+}
